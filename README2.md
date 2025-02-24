@@ -1,6 +1,6 @@
-Time Series Forecasting API
+📈 Time Series Forecasting API
 
-Overview
+🚀 Overview
 
 This project is a proof-of-concept web service for time series forecasting using a simple moving average of past 4 weeks' values on the same weekday. It is built with FastAPI and can be containerized using Docker. The forecasted values themselves are used to recursively generate future forecasts within the requested horizon.
 
@@ -25,8 +25,7 @@ If you’re forecasting 2024-05-01, it looks at 2024-04-24, 2024-04-17, 2024-04-
 
 The forecast is the average of those values. Once you forecast 2024-05-01, its predicted value will be used for forecasting 2024-05-08.
 
-
-Setup Instructions
+🛠 Setup Instructions
 
  Run with Docker
 
@@ -37,8 +36,7 @@ docker build -t forecasting-api .
 Run the Container
 
 docker run -p 8000:8000 forecasting-api
-
- API Usage
+🔥 API Usage
 
 Endpoint
 
