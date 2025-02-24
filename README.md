@@ -25,6 +25,7 @@ If you’re forecasting 2024-05-01, it looks at 2024-04-24, 2024-04-17, 2024-04-
 
 The forecast is the average of those values. Once you forecast 2024-05-01, its predicted value will be used for forecasting 2024-05-08.
 
+
 🛠 Setup Instructions
 
  Run with Docker
@@ -36,6 +37,8 @@ docker build -t forecasting-api .
 Run the Container
 
 docker run -p 8000:8000 forecasting-api
+
+
 🔥 API Usage
 
 Endpoint
